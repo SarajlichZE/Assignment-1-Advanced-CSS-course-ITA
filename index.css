@@ -1,0 +1,26 @@
+body a{
+    color: green;
+}
+
+[href="https://www.link-group.eu/" ] {
+    color:red;
+}
+
+body > p:last-child:hover{
+    font-style: italic;
+}
+
+body div#second-div p:nth-child(odd){
+   background-color: blue;
+   color:white; 
+}
+
+body div#second-div p:nth-child(even){
+    background-color: red;
+    color:white; 
+ }
+
+ #first-div > p:after {
+    content: "NEW";
+    color: yellow;
+}
